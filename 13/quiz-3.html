@@ -5,8 +5,14 @@
 	<title>CSS3 트랜스폼과 트랜지션</title>
 	<style>	
 	.photo {	
-        margin-top:50px;	
-	    margin-left:100px;
+      margin-top:50px;	
+	    margin-left:100px;		
+	}
+	.photo:hover {
+		transition: all 1s;
+		transform: scale(1.5);
+		transform-origin: left top;
+		box-shadow: 5px 5px 3px #000;
 	}
 	</style>
 </head>
